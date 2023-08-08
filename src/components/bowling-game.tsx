@@ -1,6 +1,6 @@
 import { BowlingFrame } from '@/components/bowling-frame'
 import { frames } from '@/state'
-import { FrameIndex } from '@/types'
+import { type FrameIndex } from '@/types'
 import { ThrowInput } from '@/components/throw-input'
 
 export const BowlingGame = () => {

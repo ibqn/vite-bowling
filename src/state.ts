@@ -1,5 +1,5 @@
 import { signal } from '@preact/signals'
-import { Frame, FrameIndex } from '@/types'
+import { type Frame, type FrameIndex } from '@/types'
 
 export const frames = signal(Array.from({ length: 10 }, () => ({}) as Frame))
 
