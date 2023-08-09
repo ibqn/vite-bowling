@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@preact/compat": "^17.1.2",
     "@preact/signals": "^1.2.0",
+    "@xstate/react": "^3.2.2",
     "clsx": "^2.0.0",
     "preact": "^10.16.0",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
     "tailwind-merge": "^1.14.0",
     "xstate": "^4.38.2"
   },
