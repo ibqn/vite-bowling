@@ -1,5 +1,6 @@
 export type Frame = {
-  throw?: [number, number?, number?]
+  // throw: [number?, number?, number?]
+  throw: number[]
   score?: number
 }
 
