@@ -7,7 +7,7 @@ export const BowlingGame = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="mb-2 text-2xl font-bold">Bowling Game</h1>
-      <ThrowInput remainingPins={10} />
+      <ThrowInput />
       <div className="flex flex-row gap-1">
         {frames.value.map((frame, index) => {
           return (
