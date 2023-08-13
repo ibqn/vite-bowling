@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@preact/compat": "^17.1.2",
-    "@preact/signals": "^1.2.0",
+    "@preact/signals": "^1.2.1",
     "@xstate/react": "^3.2.2",
     "clsx": "^2.0.0",
     "preact": "^10.16.0",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
-    "@types/node": "^20.4.9",
+    "@types/node": "^20.4.10",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
