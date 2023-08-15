@@ -13,7 +13,7 @@
     "@preact/signals": "^1.2.1",
     "@xstate/react": "^3.2.2",
     "clsx": "^2.0.0",
-    "preact": "^10.16.0",
+    "preact": "^10.17.0",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "tailwind-merge": "^1.14.0",
@@ -21,11 +21,11 @@
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
-    "@types/node": "^20.4.10",
-    "autoprefixer": "^10.4.14",
+    "@types/node": "^20.5.0",
+    "autoprefixer": "^10.4.15",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.5.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6",
     "vite": "^4.4.9"
