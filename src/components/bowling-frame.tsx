@@ -77,7 +77,7 @@ export const BowlingFrame = (props: Props) => {
         )}
       </div>
 
-      <div className="p-1 text-center">{frame?.score ?? 'score'}</div>
+      <div className="p-1 text-center">{frame?.score ?? <>&nbsp;</>}</div>
     </div>
   )
 }
