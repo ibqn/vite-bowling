@@ -2,6 +2,7 @@ import { bowlingMachine } from '@/machine'
 import { useMachine } from '@xstate/react'
 import { useMemo } from 'preact/hooks'
 import { frames } from '@/state'
+import { batch } from '@preact/signals'
 
 export const ThrowInput = () => {
   const [state, send] = useMachine(bowlingMachine)
@@ -104,15 +105,17 @@ export const ThrowInput = () => {
   const handleInput = (pins: number) => () => {
     send({ type: 'THROW', throw: pins })
 
-    frames.value = frames.value.map((frame, index) => {
-      if (index === state.context.frameIndex - 1) {
-        return { ...frame, throw: [...frame.throw, pins] }
-      }
+    batch(() => {
+      frames.value = frames.value.map((frame, index) => {
+        if (index === state.context.frameIndex - 1) {
+          return { ...frame, throw: [...frame.throw, pins] }
+        }
 
-      return frame
+        return frame
+      })
+
+      updateScore()
     })
-
-    updateScore()
   }
 
   if (state.matches('completed')) {
