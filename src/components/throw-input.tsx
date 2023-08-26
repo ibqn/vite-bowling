@@ -29,7 +29,9 @@ export const ThrowInput = () => {
         continue
       }
 
-      if (index + 1 < 10) {
+      const isNormalFrame = index + 1 < 10
+
+      if (isNormalFrame) {
         if (frame.throw.at(0) !== 10 && frame.throw.length < 2) {
           return
         }
@@ -47,7 +49,7 @@ export const ThrowInput = () => {
       )
 
       let bonusScore = 0
-      if (index + 1 < 10) {
+      if (isNormalFrame) {
         if (frame.throw.at(0) === 10) {
           const nextFrame = frames.value.at(index + 1)
 
