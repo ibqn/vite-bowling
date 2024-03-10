@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.2.2
     version: 1.2.2(preact@10.19.6)
   '@xstate/react':
-    specifier: ^4.1.0
-    version: 4.1.0(@preact/compat@17.1.2)(xstate@5.9.1)
+    specifier: ^3.2.2
+    version: 3.2.2(@preact/compat@17.1.2)(xstate@4.38.3)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -30,8 +30,8 @@ dependencies:
     specifier: ^2.2.1
     version: 2.2.1
   xstate:
-    specifier: ^5.9.1
-    version: 5.9.1
+    specifier: ^4.38.2
+    version: 4.38.3
 
 devDependencies:
   '@preact/preset-vite':
@@ -797,19 +797,22 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@xstate/react@4.1.0(@preact/compat@17.1.2)(xstate@5.9.1):
-    resolution: {integrity: sha512-Fh89luCwuMXIVXIua67d8pNuVgdGpqke2jHfIIL+ZjkfNh6YFtPDSwNSZZDhdNUsOW1zZYSbtUzbC8MIUyTSHQ==}
+  /@xstate/react@3.2.2(@preact/compat@17.1.2)(xstate@4.38.3):
+    resolution: {integrity: sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==}
     peerDependencies:
+      '@xstate/fsm': ^2.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      xstate: ^5.6.2
+      xstate: ^4.37.2
     peerDependenciesMeta:
+      '@xstate/fsm':
+        optional: true
       xstate:
         optional: true
     dependencies:
       react: /@preact/compat@17.1.2(preact@10.19.6)
       use-isomorphic-layout-effect: 1.1.2(@preact/compat@17.1.2)
       use-sync-external-store: 1.2.0(@preact/compat@17.1.2)
-      xstate: 5.9.1
+      xstate: 4.38.3
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1909,8 +1912,8 @@ packages:
       strip-ansi: 7.1.0
     dev: true
 
-  /xstate@5.9.1:
-    resolution: {integrity: sha512-85edx7iMqRJSRlEPevDwc98EWDYUlT5zEQ54AXuRVR+G76gFbcVTAUdtAeqOVxy8zYnUr9FBB5114iK6enljjw==}
+  /xstate@4.38.3:
+    resolution: {integrity: sha512-SH7nAaaPQx57dx6qvfcIgqKRXIh4L0A1iYEqim4s1u7c9VoCgzZc+63FY90AKU4ZzOC2cfJzTnpO4zK7fCUzzw==}
     dev: false
 
   /yallist@3.1.1:
