@@ -18,10 +18,10 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(@preact/compat@18.3.1(preact@10.26.5))(xstate@5.19.2)
       clsx:
-        specifier: ^2.1.0
+        specifier: ^2.1.1
         version: 2.1.1
       preact:
-        specifier: ^10.19.6
+        specifier: ^10.26.5
         version: 10.26.5
       react:
         specifier: npm:@preact/compat
@@ -37,7 +37,7 @@ importers:
         version: 5.19.2
     devDependencies:
       '@preact/preset-vite':
-        specifier: ^2.8.1
+        specifier: ^2.10.1
         version: 2.10.1(@babel/core@7.26.10)(magic-string@0.30.17)(preact@10.26.5)(vite@6.3.2(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))
       '@tailwindcss/vite':
         specifier: ^4.1.4
@@ -46,7 +46,7 @@ importers:
         specifier: ^22.14.1
         version: 22.14.1
       prettier:
-        specifier: ^3.2.5
+        specifier: ^3.5.3
         version: 3.5.3
       prettier-plugin-tailwindcss:
         specifier: ^0.6.11
@@ -55,7 +55,7 @@ importers:
         specifier: ^4.1.4
         version: 4.1.4
       typescript:
-        specifier: ^5.4.2
+        specifier: ^5.8.3
         version: 5.8.3
       vite:
         specifier: ^6.3.2

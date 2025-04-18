@@ -12,21 +12,21 @@
     "@preact/compat": "^18.3.1",
     "@preact/signals": "^2.0.3",
     "@xstate/react": "^5.0.3",
-    "clsx": "^2.1.0",
-    "preact": "^10.19.6",
+    "clsx": "^2.1.1",
+    "preact": "^10.26.5",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "tailwind-merge": "^3.2.0",
     "xstate": "^5.19.2"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.8.1",
+    "@preact/preset-vite": "^2.10.1",
     "@tailwindcss/vite": "^4.1.4",
     "@types/node": "^22.14.1",
-    "prettier": "^3.2.5",
+    "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.4",
-    "typescript": "^5.4.2",
+    "typescript": "^5.8.3",
     "vite": "^6.3.2"
   },
   "packageManager": "pnpm@10.8.1+sha512.c50088ba998c67b8ca8c99df8a5e02fd2ae2e2b29aaf238feaa9e124248d3f48f9fb6db2424949ff901cffbb5e0f0cc1ad6aedb602cd29450751d11c35023677"
