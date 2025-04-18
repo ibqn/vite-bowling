@@ -27,10 +27,14 @@ const isStrikeOrSpareInLastFrame = (context: Context, event: Event) =>
   (event as ThrowEvent).throw + (context.throws?.[0] ?? 0) >= 10
 
 const isStrikeAndRegularFrame = (context: Context, event: Event) =>
-  (event as ThrowEvent).throw === 10 && context.throws.length === 0 && context.frameIndex < 9
+  (event as ThrowEvent).throw === 10 &&
+  context.throws.length === 0 &&
+  context.frameIndex < 9
 
 const isStrikeAndLastFrameNext = (context: Context, event: Event) =>
-  (event as ThrowEvent).throw === 10 && context.throws.length === 0 && context.frameIndex === 9
+  (event as ThrowEvent).throw === 10 &&
+  context.throws.length === 0 &&
+  context.frameIndex === 9
 
 const isLastFrameNext = (context: Context) => context.frameIndex === 9
 
