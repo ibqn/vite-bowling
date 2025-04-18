@@ -11,13 +11,13 @@
   "dependencies": {
     "@preact/compat": "^18.3.1",
     "@preact/signals": "^2.0.3",
-    "@xstate/react": "^3.2.2",
+    "@xstate/react": "^5.0.3",
     "clsx": "^2.1.0",
     "preact": "^10.19.6",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "tailwind-merge": "^3.2.0",
-    "xstate": "^4.38.2"
+    "xstate": "^5.19.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.8.1",
