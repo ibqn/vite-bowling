@@ -53,7 +53,7 @@ export const BowlingFrame = (props: Props) => {
         frameNumber === frameIndex.value
           ? 'bg-red-500 hover:bg-red-600'
           : 'bg-teal-300 hover:bg-teal-400',
-        'w-20 cursor-pointer select-none border border-slate-500',
+        'w-20 cursor-pointer border border-slate-500 select-none',
         'transition hover:scale-105'
       )}
       onClick={setCurrentFrame}
